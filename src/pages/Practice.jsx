@@ -174,21 +174,37 @@ const Practice = () => {
       <div className="question-card glass">
         {currentQ.imageUrl && (
           <div className="question-image-wrapper">
-            <img src={currentQ.imageUrl} alt="Traffic Scene" className="question-image animate-fade-in" />
+            <img src={`${import.meta.env.BASE_URL}${currentQ.imageUrl.replace(/^\\//, '')}`} alt="Traffic Scene" className="question-image animate-fade-in" />
           </div>
         )}
         <h2 className="text-2xl font-semibold mb-6">{currentQ.question}</h2>
         <div className="options-list">
-          {currentQ.options.map((option, idx) => (
-            <button
-              key={idx}
-              className={`option-btn ${selectedAnswer === idx ? 'selected' : ''}`}
-              onClick={() => handleSelectAnswer(idx)}
-            >
-              <span className="option-letter">{String.fromCharCode(65 + idx)}</span>
-              <span className="option-text">{option}</span>
-            </button>
-          ))}
+          {currentQ.options.map((option, idx) => {
+            const isSelected = selectedAnswer === idx;
+            const isCorrect = currentQ.correctAnswer === idx;
+            const showFeedback = selectedAnswer !== undefined;
+            
+            let btnClass = 'option-btn';
+            if (showFeedback) {
+              if (isCorrect) btnClass += ' correct';
+              else if (isSelected) btnClass += ' incorrect';
+              else btnClass += ' disabled';
+            } else if (isSelected) {
+              btnClass += ' selected';
+            }
+
+            return (
+              <button
+                key={idx}
+                className={btnClass}
+                onClick={() => !showFeedback && handleSelectAnswer(idx)}
+                disabled={showFeedback}
+              >
+                <span className="option-letter">{String.fromCharCode(65 + idx)}</span>
+                <span className="option-text">{option}</span>
+              </button>
+            );
+          })}
         </div>
       </div>
 

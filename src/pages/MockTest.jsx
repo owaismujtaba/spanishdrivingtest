@@ -128,7 +128,7 @@ const MockTest = () => {
         <div className="question-card glass">
           {currentQ.imageUrl && (
             <div className="question-image-wrapper">
-              <img src={currentQ.imageUrl} alt="Traffic Scene" className="question-image animate-fade-in" />
+              <img src={`${import.meta.env.BASE_URL}${currentQ.imageUrl.replace(/^\\//, '')}`} alt="Traffic Scene" className="question-image animate-fade-in" />
             </div>
           )}
           <h2 className="text-2xl font-semibold mb-6">{currentQ.question}</h2>

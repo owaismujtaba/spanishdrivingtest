@@ -171,3 +171,30 @@
   gap: 1rem;
   justify-content: center;
 }
+
+.option-btn.correct {
+  border-color: var(--color-success);
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--color-success);
+}
+
+.option-btn.correct .option-letter {
+  background: var(--color-success);
+  color: white;
+}
+
+.option-btn.incorrect {
+  border-color: var(--color-danger);
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--color-danger);
+}
+
+.option-btn.incorrect .option-letter {
+  background: var(--color-danger);
+  color: white;
+}
+
+.option-btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

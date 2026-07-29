@@ -41,7 +41,7 @@ const Study = () => {
           <div key={index} className="study-section">
             <h2>{section.heading}</h2>
             {section.image && (
-              <img src={section.image} alt={section.heading} className="study-image" />
+              <img src={`${import.meta.env.BASE_URL}${section.image.replace(/^\\//, '')}`} alt={section.heading} className="study-image" />
             )}
             <p>{section.text}</p>
           </div>
