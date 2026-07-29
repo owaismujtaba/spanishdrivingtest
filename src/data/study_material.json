@@ -1,0 +1,112 @@
+[
+  {
+    "id": "signs",
+    "title": "Traffic Signs & Signals",
+    "content": [
+      {
+        "heading": "Categories of Signs",
+        "text": "Traffic signs and roadway markings are divided into three broad categories: Regulatory, Warning, and Information. Sometimes signs from different categories are used together to improve road safety."
+      },
+      {
+        "heading": "Regulatory Signs",
+        "text": "These indicate what you must do under road traffic law, so all road users must obey them. Upright signs generally come in two formats: a white background with a red border and black letters, or a blue background with white symbols.",
+        "image": "/images/extracted/signs_1.jpg"
+      },
+      {
+        "heading": "Warning Signs",
+        "text": "Warning signs warn you of hazards ahead. You must be prepared to take action when you see them.",
+        "image": "/images/extracted/signs_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "rules",
+    "title": "General Traffic Rules",
+    "content": [
+      {
+        "heading": "Road Markings",
+        "text": "Road markings help to organize traffic and indicate rules such as no parking or no overtaking. For example, continuous white lines mean you must not cross.",
+        "image": "/images/extracted/rules_1.jpg"
+      }
+    ]
+  },
+  {
+    "id": "maneuvers",
+    "title": "Maneuvers",
+    "content": [
+      {
+        "heading": "Safe Maneuvering",
+        "text": "Whenever you change position on the road, such as parking, pulling out, or reversing, you must always check mirrors and blind spots.",
+        "image": "/images/extracted/maneuvers_1.jpg"
+      }
+    ]
+  },
+  {
+    "id": "speed",
+    "title": "Speed Limits",
+    "content": [
+      {
+        "heading": "Basic Speed Rule",
+        "text": "A vehicle must not be driven at a speed exceeding that which will enable its driver to bring it to a halt within a distance the driver can see to be clear. As a driver, you must always be aware of your speed and judge the appropriate speed for your vehicle."
+      },
+      {
+        "heading": "The Two-Second Rule",
+        "text": "In traffic, the distance between your vehicle and the one in front of you is known as the 'safe headway'. Keep a safe headway by ensuring you are at least two seconds behind the vehicle in front. In wet weather, double this distance.",
+        "image": "/images/extracted/speed_1.jpg"
+      },
+      {
+        "heading": "Cruise Control Warning",
+        "text": "Avoid using cruise control in heavy rain, hail, snow, fog and icy conditions. Cruise control can potentially reduce the control you have over your vehicle and impact on your reaction time.",
+        "image": "/images/extracted/speed_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "safety",
+    "title": "Vehicle Safety (Extracted from Rules of the Road)",
+    "content": [
+      {
+        "heading": "Minimum Standards",
+        "text": "There are minimum standards set by law for the condition of your vehicle. You must ensure that the steering, brakes, front and rear lamps, indicators, reflectors, rear view mirrors, safety belts, speedometer, tyres, windscreen wipers, horn and silencer are checked regularly.",
+        "image": "/images/extracted/safety_1.jpg"
+      },
+      {
+        "heading": "Tyres",
+        "text": "Most vehicles on the road must have a minimum tread depth of 1.6mm over the main treads. For motorcycles and vintage vehicles, the minimum is 1mm. Regularly check pressure and examine for cuts, cracks, and bulges. Do not mix radial and cross ply tyres on any one axle.",
+        "image": "/images/extracted/safety_2.jpg"
+      },
+      {
+        "heading": "Emergency Items",
+        "text": "The RSA advises motorists to have a first aid kit, at least 1 high-viz vest or jacket (fluorescent and reflective), at least 1 red warning triangle, and a torch available in your vehicle."
+      },
+      {
+        "heading": "Licensing & N-Plates",
+        "text": "If you are a novice driver, you must display N-plates on your vehicle for 2 years. Your Certificate of Competency must be exchanged for a full driving licence within two years."
+      }
+    ]
+  },
+  {
+    "id": "behavior",
+    "title": "Good Driving Practice (Extracted from Rules of the Road)",
+    "content": [
+      {
+        "heading": "Moving Off",
+        "text": "Before moving off, check that all doors, bonnet and boot are closed. Adjust your seat and head restraint. Adjust rear view mirrors and fasten safety belts. Before moving off from the kerb, take all around observations, check mirrors and signal, and check blind spots over your shoulder.",
+        "image": "/images/extracted/behavior_1.jpg"
+      },
+      {
+        "heading": "Position on the Road",
+        "text": "Make sure you drive your vehicle far enough to the left to allow traffic to safely pass or overtake on the right, but not so far to the left that you are driving on a cycle lane or endangering cyclists.",
+        "image": "/images/extracted/behavior_2.jpg"
+      },
+      {
+        "heading": "Mobile Phones",
+        "text": "You must not drive a vehicle or ride a motorbike while using a hand-held mobile phone. It is an offence, for which you may receive a fixed charge and up to 5 penalty points. You must not send or read a text message or email."
+      },
+      {
+        "heading": "Personal Entertainment",
+        "text": "Avoid using personal entertainment systems through earphones as they can distract you and prevent you from hearing emergency sirens. Cyclists in particular should avoid these systems."
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "signs",
+    "title": "Traffic Signs & Signals",
+    "description": "Learn the meaning of warning, regulatory, and informative road signs.",
+    "icon": "AlertTriangle"
+  },
+  {
+    "id": "rules",
+    "title": "General Traffic Rules",
+    "description": "Right of way, priority at intersections, and basic traffic laws.",
+    "icon": "Map"
+  },
+  {
+    "id": "maneuvers",
+    "title": "Maneuvers",
+    "description": "Rules for overtaking, changing lanes, parking, and reversing.",
+    "icon": "ArrowRightLeft"
+  },
+  {
+    "id": "speed",
+    "title": "Speed Limits",
+    "description": "Specific speed limits for different types of roads and vehicles.",
+    "icon": "Gauge"
+  },
+  {
+    "id": "safety",
+    "title": "Vehicle Safety",
+    "description": "Mandatory equipment, vehicle classification, and basic maintenance.",
+    "icon": "ShieldCheck"
+  },
+  {
+    "id": "behavior",
+    "title": "Driver Behavior",
+    "description": "Defensive driving, effects of alcohol, drugs, fatigue, and distractions.",
+    "icon": "UserCheck"
+  }
+]
